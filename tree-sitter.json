@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "autoconf",
+      "camelcase": "Autoconf",
+      "title": "Autoconf",
+      "scope": "source.autoconf",
+      "file-types": [
+        "autoconf"
+      ],
+      "injection-regex": "^autoconf$",
+      "class-name": "TreeSitterAutoconf"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "LGPL-3.0-or-later",
+    "description": "Tree-sitter grammar for GNU Autoconf",
+    "authors": [
+      {
+        "name": "Raven Hallsby",
+        "email": "raven@hallsby.com",
+        "url": "https://raven.hallsby.com/"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/ravenjoad/tree-sitter-autoconf"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
